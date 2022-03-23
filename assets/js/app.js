@@ -5,7 +5,11 @@ $(function() {
 
 	// Get the messages div.
 	var formMessages = $('#form-messages');
+	$("a[class='Update']").click(function () {
 
+		$("#MyPopup").modal("show");
+		return false;
+	});
 	// Set up an event listener for the contact form.
 	$(form).submit(function(e) {
 		// Stop the browser from submitting the form.
@@ -50,3 +54,4 @@ $(function() {
 	});
 
 });
+
