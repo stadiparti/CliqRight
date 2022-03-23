@@ -50,7 +50,9 @@
             top: 100
         }
     })
-
+    $(".navbar-toggle").click(function(){
+        $("nav").toggleClass("navbar-yellow");
+    })
     // Initialize WOW.js Scrolling Animations
     new WOW().init();
 

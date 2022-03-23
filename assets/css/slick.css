@@ -375,5 +375,7 @@ nav.affix-top {
       -moz-border-radius: 10px;
     color: #fff;
 }
-
+.navbar-yellow{
+    background-color: #333 !important;
+}
 
