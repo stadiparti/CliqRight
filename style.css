@@ -1063,13 +1063,14 @@ button:focus {
 
 
 #mu-footer {
-	background-color: #f8f8f8;
+	background-color: #333;
 	display: inline;
 	float: left;
 	width: 100%;
 }
 
 .mu-footer-area{
+	
 	display: inline;
 	float: left;
 	padding: 30px 0;
